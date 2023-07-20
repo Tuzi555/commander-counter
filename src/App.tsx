@@ -3,10 +3,10 @@ import PlayerCard from './player-card/PlayerCard.tsx';
 function App() {
   return (
     <>
-      <PlayerCard className={'bg-red-500 rotate-180'} />
-      <PlayerCard className={'bg-green-500 rotate-180'} />
-      <PlayerCard className={'bg-blue-500'} />
-      <PlayerCard className={'bg-yellow-500'} />
+      <PlayerCard className={'bg-red-700/70 rotate-180'} />
+      <PlayerCard className={'bg-emerald-700/70 rotate-180'} />
+      <PlayerCard className={'bg-sky-700/70'} />
+      <PlayerCard className={'bg-amber-700/70'} />
     </>
   );
 }
